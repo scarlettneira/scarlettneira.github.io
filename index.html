@@ -3,93 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Título de la Página</title>
-    <meta name="description" content="Descripción breve de la página web.">
-    <meta name="keywords" content="palabras clave, página web, HTML, ejemplo">
-    <meta name="author" content="Tu Nombre">
-    
-    <!-- Enlace a archivo CSS externo -->
-    <link rel="stylesheet" href="estilos.css">
-    
-    <!-- Icono de la pestaña -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-    <!-- Agrega tus fuentes (opcional) -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <title>Mi CV Online</title>
     <style>
-        /* Estilos CSS simples para el ejemplo */
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem;
+            background-color: #4CAF50;
+            color: white;
             text-align: center;
+            padding: 1rem 0;
         }
-        nav {
-            margin: 1rem 0;
-            text-align: center;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
-        nav a {
-            margin: 0 1rem;
+        h1, h2 {
             color: #333;
-            text-decoration: none;
-            font-weight: bold;
         }
-        main {
-            padding: 2rem;
+        .section {
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-top: 20px;
         }
         footer {
             background-color: #333;
-            color: #fff;
-            padding: 1rem;
+            color: white;
             text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 10px 0;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Encabezado de la página -->
     <header>
-        <h1>Bienvenido a mi página web</h1>
-        <p>Una página web sencilla con HTML y CSS</p>
+        <h1>Scarlett Neira Giddings</h1>
+        <p>Ingeniera en Aviación Comercial | SQL | Python</p>
     </header>
 
-    <!-- Menú de navegación -->
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mí</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <div class="container">
+        <section class="section">
+            <h2>Perfil Profesional</h2>
+            <p> Me encuentro cursando un diplomado en Data Science en la Universidad del Desarrollo. Busco una oportunidad para aplicar mis habilidades en la industria tecnológica.</p>
+        </section>
 
-    <!-- Contenido principal -->
-    <main>
-        <h2>Acerca de esta página</h2>
-        <p>Esta es una plantilla genérica de una página web. Puedes utilizarla como base para crear tu propio sitio web y adaptarla según tus necesidades.</p>
-        
-        <h2>Servicios</h2>
-        <ul>
-            <li>Diseño web</li>
-            <li>Desarrollo front-end</li>
-            <li>Optimización de motores de búsqueda (SEO)</li>
-        </ul>
-    </main>
+        <section class="section">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <strong>Ejecutiva Comercial</strong> - blba (Año Inicio - Año Fin)<br>
+                    <p>Responsable de estudios de mercado, creación de presupuestos y facturación. Coordinación de vuelos charter y ambulancia. Implementación de boarding pass electrónicos.</p>
+                </li>
+                <li>
+                    <strong>Asistente Comercial</strong> - Empresa de Aviación (Año Inicio - Año Fin)<br>
+                    <p>Negociación con proveedores, coordinación de vuelos intercontinentales y liderazgo en operaciones de alta presión.</p>
+                </li>
+                <li>
+                    <strong>Coordinadora de Proyectos</strong> - Empresa de Aviación (Año Inicio - Año Fin)<br>
+                    <p>Negociación con proveedores, coordinación de vuelos intercontinentales y liderazgo en operaciones de alta presión.</p>
+                </li>
+                <li>
+                    <strong>Práctica Industrial</strong> - Empresa de Aviación (Año Inicio - Año Fin)<br>
+                    <p>Negociación con proveedores, coordinación de vuelos intercontinentales y liderazgo en operaciones de alta presión.</p>
+                </li>
+            </ul>
+        </section>
 
-    <!-- Pie de página -->
+        <section class="section">
+            <h2>Educación</h2>
+            <ul>
+                <li><strong>Ingeniería en Aviación Comercial</strong> - Universidad Técnica Federico Santa María (2021)</li>
+                <li><strong>Diplomado en Ciencias de Datos</strong> - Universidad Del Desarrollo (En curso)</li>
+                <li><strong>Certificado C1 en Inglés</strong> - Cambridge University (2013)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>SQL, MySQL</li>
+                <li>Power BI, Tableau</li>
+                <li>Python, Pandas, Seaborn</li>
+                <li>Excel Avanzado</li>
+                <li>Negociación y Ventas</li>
+            </ul>
+        </section>
+
+        <section class="section contact-info">
+            <h2>Contacto</h2>
+            <ul>
+                <li>Email: scarlettneira@gmail.com</li>
+                <li>Teléfono: +56 9 419838738</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/scarlett-neira-giddings" target="_blank">linkedin.com/in/scarlett-neira-giddings</a></li>
+            </ul>
+        </section>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Scarlett Neira Giddings. Todos los derechos reservados.</p>
     </footer>
 
 </body>
 </html>
+

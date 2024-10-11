@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza con el archivo de estilos -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8080b6;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #8080b6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project {
+            display: flex;
+            background-color: white;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .project img {
+            width: 30%;
+            height: auto;
+        }
+        .project-content {
+            padding: 20px;
+            flex: 1;
+        }
+        .project-content h3 {
+            margin-top: 0;
+        }
+        .project-content p {
+            margin-bottom: 10px;
+        }
+        .project-content a {
+            color: #6982d9;
+            text-decoration: none;
+        }
+        .project-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre Mí</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Mis Proyectos</h1>
+
+    <!-- Proyecto 1 -->
+    <div class="project">
+        <img src="proyecto1.jpg" alt="Imagen del Proyecto 1">
+        <div class="project-content">
+            <h3>Proyecto de Análisis de Datos con Power BI</h3>
+            <p>En este proyecto, utilicé datos de Strava para realizar un análisis completo de actividades deportivas. Creé dashboards interactivos que permiten explorar la distancia, tiempo y tipo de actividad realizados en distintas fechas.</p>
+            <a href="#">Ver más detalles</a>
+        </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="project">
+        <img src="proyecto2.jpg" alt="Imagen del Proyecto 2">
+        <div class="project-content">
+            <h3>Visualización de Datos Meteorológicos</h3>
+            <p>Este proyecto consistió en la visualización de datos meteorológicos de diferentes países. Utilicé Python y Matplotlib para generar gráficos dinámicos y resaltar patrones interesantes.</p>
+            <a href="#">Ver más detalles</a>
+        </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="project">
+        <img src="proyecto3.jpg" alt="Imagen del Proyecto 3">
+        <div class="project-content">
+            <h3>Análisis de Canciones de Taylor Swift</h3>
+            <p>Extraje datos de la API de Spotify sobre las canciones de Taylor Swift y analicé características como la bailabilidad, energía y vivacidad. Creé visualizaciones para entender mejor los estilos musicales de cada álbum.</p>
+            <a href="#">Ver más detalles</a>
+        </div>
+    </div>
+
+    <!-- Puedes agregar más proyectos de la misma forma -->
+</div>
+
+</body>
+</html>
